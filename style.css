@@ -1,0 +1,290 @@
+body {
+  font-family: sofia-pro, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+html {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  margin: 20px 0px 20px 40px;
+}
+#btn-back-to-top {
+  z-index: 100;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  border-radius: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.navbar-nav {
+  margin-right: 60px;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+.nav-item {
+  color: black !important;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.navbar-nav a:hover {
+  text-decoration: underline;
+}
+.btn {
+  background-color: #870aa0;
+  color: white;
+  border-radius: 0%;
+}
+.btn:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+.ansok-btn {
+  font-size: 20px;
+  width: 200px;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.hero {
+  height: 550px;
+  background-image: url(images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1,
+p {
+  color: white;
+}
+.hero-text {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 90%;
+  height: 60%;
+  margin: 0;
+  padding: 0;
+}
+.credit {
+  margin-top: 50px;
+}
+
+.credit-container {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.credit-card h1 {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.credit-card button {
+  padding-bottom: 10px;
+}
+.carousel {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.carousel-item {
+  background-color: #f8f9fa;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.testimonials-container {
+  text-align: center;
+}
+.person-text {
+  margin: auto;
+  width: 70%;
+  margin-bottom: 40px;
+}
+
+.blockquote p {
+  color: black;
+}
+.testimonials-image {
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+
+.grafisk_element_1, .grafisk_element_2, .grafisk_element_3{
+  width: 200px;
+}
+.experience {
+  margin-bottom: 30px;
+  background-color: #f8f9fa;
+}
+.experience .row {
+  display: flex;
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+.experience-text, .ansok-nu-text {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.experience-image {
+  padding-left: 0;
+  margin-bottom: 70px;
+}
+.experience-text h2 {
+  text-align: center;
+  font-size: 27px;
+}
+
+.hallbarhet-container {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.hallbarhet-container .col {
+margin-bottom: 20px;
+}
+
+.hallbarhet-container .card-header {
+    border:0;
+    font-size: 23px;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.ansok-nu {
+    background-color: #f8f9fa;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.ansok-nu .row {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.grafisk_element_2 {
+    margin-bottom: 50px;
+}
+.feature {
+  padding-right: 20px;
+}
+.feature i {
+  font-size: 22px;
+  background-color: #A5FAE6;
+  color: black;
+  padding: 12px;
+  border-radius: 25%;
+  margin-bottom: 14px;
+}
+.social-media a{
+text-decoration: none;
+font-size: 30px;
+}
+
+footer a {
+text-decoration: none;
+color: black;
+}
+
+footer p {
+  font-size: 17px;
+}
+
+
+
+@media only screen and (min-width: 992px) {
+  /* For desktop: */
+  .ansok-btn {
+    margin: auto;
+  }
+
+  .hero {
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .hero-text {
+    width: 50%;
+    height: 60%;
+  }
+
+  .testimonials-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .testimonials-image {
+    margin-right: 60px;
+  }
+
+  .person-text {
+    text-align: right !important;
+    align-self: center;
+    width: 50%;
+    margin: 0;
+  }
+
+  .grafisk_element_1, .grafisk_element_2, .grafisk_element_3 {
+    width: 300px;
+  }
+
+  .experience {
+      padding-top: 50px;
+      padding-bottom: 150px;
+  }
+  .experience-text {
+   padding-right: 100px;
+    align-self: center;
+  }
+
+  .experience-image {
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+
+  .experience-text h2 {
+    text-align: left;
+    font-size: 33px;
+  }
+
+  .experience .row {
+    padding-bottom: 0;
+    flex-direction: row;
+  }
+  .hallbarhet-container .col {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.hallbarhet-container {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.ansok-nu .row{
+    margin-right: 100px;
+    margin-left: 100px;
+    flex-direction: row;
+}
+.grafisk_element_2 {
+   margin-bottom: 0;
+}
+.ansok-nu-text {
+    margin-top: 50px;
+    align-self: center;
+}
+
+.ansok-nu-text .btn {
+    margin-bottom: 20px;
+}
+}
