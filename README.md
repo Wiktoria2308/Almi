@@ -1,3 +1,3 @@
 # Almi
 School Project
-Link: my-version-of-almi-company.netlify.app
+Link: https://my-version-of-almi-company.netlify.app/
